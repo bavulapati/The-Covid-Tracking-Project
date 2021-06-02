@@ -13,4 +13,5 @@ Use the copied embed code snippet in the website similar to
 
 And the Website will have the selected postman widget rendered as follows  
 
-[Preview embed](preview.html)
+[Preview embed](preview.html)  
+{% include preview.html %}
