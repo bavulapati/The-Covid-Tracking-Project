@@ -14,5 +14,3 @@ Use the copied embed code snippet in the website similar to
 ![IFrame in html](assets/iframe.png)
 
 And the Website will have the selected postman widget rendered as follows  
-
-[Preview embed](preview.html)
