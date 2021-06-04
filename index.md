@@ -242,7 +242,11 @@ Example: https://api.covidtracking.com/v1/us/current.json
 ### CSV format
 /v1/us/current.csv
 
-Example: https://api.covidtracking.com/v1/us/current.csv
+Example: https://api.covidtracking.com/v1/us/current.csv  
+
+### Fiddle  
+
+{% include preview.html %}
 
 ### Fields
 #### date
