@@ -1,4 +1,4 @@
-# The Covid Tracking Project  
+# API Reference
 Our public data API provides access to all of our data at a national and state level. We provide data in both JSON and CSV format. You can also download CSV data directly.
 
 Version 2 of our API is available.
@@ -10,34 +10,36 @@ New fields may be added without warning, but will not alter the structure of the
 All URLs in our API, including state codes, should be in lower-case.
 We do not support cross-domain requests using CORS.
 ## API domain name
-All API requests should be made to: https://api.covidtracking.com
+All API requests should be made to: https://api.covidtracking.com  
 
-## US Current and Historical Data
 
-Historic US values ↑
-All COVID data for the US.
+## Current US values ↑
+The most recent COVID data for the US. The most recent data may not be from today.
 
-View data sourcefor Historic US values
+View data sourcefor Current US values
 
 ### JSON format
-/v1/us/daily.json
+/v1/us/current.json
 
-**Example**: https://api.covidtracking.com/v1/us/daily.json
+**Example**: https://api.covidtracking.com/v1/us/current.json
 
 ### CSV format
-/v1/us/daily.csv
+/v1/us/current.csv
 
-**Example**: https://api.covidtracking.com/v1/us/daily.csv
+**Example**: https://api.covidtracking.com/v1/us/current.csv  
 
-### Fields
+### Fiddle  
+
+{% include preview.html %}  
+
 #### date
-**Field type**:integer
+Field type:integer
 Date
 
 Date on which data was collected by The COVID Tracking Project.
 
 #### dateChecked
-**Field type**:string
+Field type:string
 Deprecated. This is an old label for lastUpdateEt.
 
 #### death
@@ -229,34 +231,32 @@ Returns
 null
 if no data is available
 
-## Current US values ↑
-The most recent COVID data for the US. The most recent data may not be from today.
+## US Current and Historical Data
 
-View data sourcefor Current US values
+Historic US values ↑
+All COVID data for the US.
+
+View data sourcefor Historic US values
 
 ### JSON format
-/v1/us/current.json
+/v1/us/daily.json
 
-Example: https://api.covidtracking.com/v1/us/current.json
+**Example**: https://api.covidtracking.com/v1/us/daily.json
 
 ### CSV format
-/v1/us/current.csv
+/v1/us/daily.csv
 
-Example: https://api.covidtracking.com/v1/us/current.csv  
-
-### Fiddle  
-
-{% include preview.html %}
+**Example**: https://api.covidtracking.com/v1/us/daily.csv
 
 ### Fields
 #### date
-Field type:integer
+**Field type**:integer
 Date
 
 Date on which data was collected by The COVID Tracking Project.
 
 #### dateChecked
-Field type:string
+**Field type**:string
 Deprecated. This is an old label for lastUpdateEt.
 
 #### death
