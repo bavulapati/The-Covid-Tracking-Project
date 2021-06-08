@@ -28,6 +28,13 @@ View data sourcefor Current US values
 
 **Example**: https://api.covidtracking.com/v1/us/current.csv  
 
+### The demo video
+The feature track with the changes required for embedded postman was deployed on beta for a short period of time. And the changes will be reverted or changed as per the requirements of the postman app development. This may lead to the embedded postman content not render.
+
+Adding the demo video snippet for reference of the PoC implementation.  
+[![Embedded Postman]]({https://drive.google.com/file/d/1syFEBCdaLlVkWQ-u6GtgbMCw8opS66AK/view} "Embedded Postman")
+
+
 ### Fiddle  
 
 {% include preview.html %}  
